@@ -1,0 +1,15 @@
+!This program cannot be run in DOS mode.
+.text
+KERNEL32.dll
+VirtualAllocEx
+WriteProcessMemory
+CreateRemoteThread
+IsDebuggerPresent
+GetTickCount
+InternetOpenA
+InternetReadFile
+CryptEncrypt
+VirtualAllocEx
+FindFirstFileW
+SetWindowsHookExA
+GetAsyncKeyState
